@@ -1,62 +1,55 @@
-# Título do projeto
+<h1>Streamlit Analysis</h1>
 
-Um simples resumo do uso/propósito do projeto.
+<p>This project is an interactive data analysis dashboard built using <strong>Streamlit</strong>. It allows users to explore and analyze datasets, offering real-time visualizations and insights. The primary dataset used in this project is the <code>bank-additional.csv</code>, which contains data from direct marketing campaigns of a banking institution.</p>
 
-## Descrição do projeto
+<h2>📂 Project Structure</h2>
 
-Um parágrafo aprofundando mais sobre o seu projeto e uma explicação geral do uso.
+<pre>
+📂 streamlit-analysis
+ ├── 📁 dataset                # Folder containing the dataset
+ ├── 📁 .heroku                # Config files for Heroku deployment
+ ├── app_7.py                  # Main Streamlit application
+ ├── requirements.txt          # Python dependencies
+ └── Procfile                  # Configuration file for deployment
+</pre>
 
-## Utilização
+<h2>🔨 Features</h2>
 
-### Dependencias
+<ul>
+  <li>Interactive data visualizations and analysis using <strong>Streamlit</strong>.</li>
+  <li>Allows custom dataset uploads for dynamic analysis.</li>
+  <li>Real-time updates based on user inputs through Streamlit widgets.</li>
+</ul>
 
-* Descreve quaisquer prerequisitos, bibliotecas, versão do SO, etc., que é necessário para rodar o projeto.
-* exemplo. Windows 10...
+<h2>📊 Dataset</h2>
 
-### Instalação
+<p>The dataset used for analysis (<code>bank-additional.csv</code>) includes information related to marketing campaigns. It contains various customer attributes such as demographic information, contact history, and marketing success rates.</p>
 
-* Como/aonde fazer o download do seu projeto/programa
-* Quaisquer modificação necessária nos arquivos/diretórios
+<h2>🛠️ How to Run the Project</h2>
 
-### Executando o projeto
+<ol>
+  <li>Clone this repository:
+    <pre><code>git clone https://github.com/AdrianoFerreiraOliveira/streamlit-analysis.git</code></pre>
+  </li>
+  <li>Navigate to the project directory:
+    <pre><code>cd streamlit-analysis</code></pre>
+  </li>
+  <li>Install the required dependencies:
+    <pre><code>pip install -r requirements.txt</code></pre>
+  </li>
+  <li>Run the Streamlit app:
+    <pre><code>streamlit run app_7.py</code></pre>
+  </li>
+</ol>
 
-* Como rodar o projeto/programa
-* Passo a passo em tópicos (bullet points)
-```
-bloco de código para os comandos necessários
-```
+<h2>✔️ Technologies Used</h2>
 
-## Ajuda
+<ul>
+  <li><strong>Streamlit</strong>: Framework for building data apps.</li>
+  <li><strong>Pandas</strong>: Data manipulation and analysis.</li>
+  <li><strong>Heroku</strong>: Deployment platform for hosting the app.</li>
+</ul>
 
-Qualquer ponto importante de problemas ou erros comuns
-```
-comando para rodar se o programa tiver uma informação de ajuda
-```
+<h2>🚀 Deployment</h2>
 
-## Autores
-
-Nomes dos desenvolvedores do projeto e informação para entrar em contato.
-
-ex. Lucas Serra  
-ex. [@LucasSerra](https://www.linkedin.com/in/lucasserra03/)
-
-## Histórico de versões.
-
-* 0.2
-	* Ajustes de diversos bugs e otimização
-* 0.1
-    * Primeira versão
-
-## Licença de uso
-
-Esse projeto possui licença de uso [NAME HERE] - acesse o arquivo LICENSE.md para mais detalhes.
-
-## Fontes de inspiração
-
-Inspiração, trechos de códigos utilizados, etc.
-* [readme-template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+<p>The application can be deployed to <strong>Heroku</strong>. The <code>Procfile</code> and <code>requirements.txt</code> are configured for easy deployment. To deploy, follow the instructions on the Heroku website.</p>
